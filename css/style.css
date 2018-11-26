@@ -1,5 +1,9 @@
 @import url('http://fonts.googleapis.com/css?family=Lato:300,300italic,700&amp;subset=latin,latin-ext');
 
+:root {
+   --bg-color: rgba(255, 255, 255, .9);
+}
+
 * {
    margin: 0;
    padding: 0;
@@ -35,7 +39,7 @@ a {
    position: absolute;
    top: 24px;
    margin-right: 48px;
-   background-color: rgba(255, 255, 255, .9);
+   background-color: var(--bg-color);
    padding: 12px 24px;
    line-height: 1.2;
 }
@@ -48,7 +52,7 @@ a {
    position: absolute;
    bottom: 24px;
    left: 0;
-   background-color: rgba(255, 255, 255, .9);
+   background-color: var(--bg-color);
    padding: 12px;
    line-height: 1;
 }
