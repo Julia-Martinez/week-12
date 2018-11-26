@@ -2,6 +2,7 @@
 
 :root {
    --bg-color: rgba(255, 255, 255, .9);
+   --primary-typeface: 'Lato', sans-serif;
 }
 
 * {
@@ -10,7 +11,7 @@
 }
 
 body {
-   font-family: Lato, sans-serif;
+   font-family: var(--primary-typeface);
 }
 
 h1 {
