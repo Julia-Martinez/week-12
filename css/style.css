@@ -27,5 +27,6 @@ a {
 
 .item {
    width: 50%;
+   line-height: 0;
 }
 
