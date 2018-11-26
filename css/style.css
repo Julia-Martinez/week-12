@@ -59,3 +59,8 @@ a {
    }
 }
 
+@media (max-width: 1080px) {
+   #container {
+      width: 92.59%;
+   }
+}
