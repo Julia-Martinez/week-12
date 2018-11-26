@@ -31,6 +31,11 @@ a {
    line-height: 0;
 }
 
+.item--heading {
+   position: absolute;
+   top: 24px;
+}
+
 .item--image {
    width: 100%;
 }
