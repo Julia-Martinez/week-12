@@ -48,6 +48,7 @@ a {
    position: absolute;
    bottom: 24px;
    left: 0;
+   padding: 12px;
    line-height: 1;
 }
 
