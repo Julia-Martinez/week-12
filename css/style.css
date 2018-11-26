@@ -26,6 +26,7 @@ a {
 }
 
 .item {
+   position: relative;
    width: 50%;
    line-height: 0;
 }
