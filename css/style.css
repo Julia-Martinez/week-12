@@ -31,3 +31,7 @@ a {
    line-height: 0;
 }
 
+.item--image {
+   width: 100%;
+}
+
