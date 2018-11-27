@@ -48,14 +48,14 @@ nav ul > li {
    background-color: #fff;
 }
 
-nav ul > li:hover > ul {
-   visibility: visible;
-}
-
 nav ul > li > ul {
    visibility: hidden;
    position: absolute;
    left: 0;
+}
+
+nav ul > li:hover > ul {
+   visibility: visible;
 }
 
 nav ul > li > ul a {
