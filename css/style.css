@@ -50,7 +50,7 @@ a {
    bottom: var(--secondary-space);
    left: 0;
    background-color: var(--bg-color);
-   padding: var(--primary-space);
+   padding: var(--primary-space) var(--secondary-space);
    line-height: 1;
 }
 
