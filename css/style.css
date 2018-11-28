@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+@import url('variables.css');
 
 body {
-   background-color: #21bde1;
-   color: #555;
-   font-family: 'Open Sans', sans-serif;
+   font-family: var(--primary-typeface);
+   background-color: var(--bg-color--body);
+   color: var(--color--body-text);
 }
 
 h1 {
@@ -12,21 +13,21 @@ h1 {
 
 nav {
    margin: 0 auto;
-   width: 300px;
-   height: 48px;
+   width: var(--width--nav);
+   height: var(--height--nav-item);
 }
 
 nav a {
    display: block;
-   width: 150px;
-   color: #000;
+   width: var(--width--nav-item);
+   color: var(--color--anchor-text);
    text-align: center;
    text-decoration: none;
-   line-height: 48px;
+   line-height: var(--height--nav-item);
 }
 
 nav a:hover {
-   background-color: #d5f2f9;
+   background-color: var(--bg-color--link-hover);
 }
 
 nav ul {
@@ -37,9 +38,9 @@ nav ul {
 
 nav ul > li {
    float: left;
-   width: 150px;
+   width: var(--width--nav-item);
    position: relative;
-   background-color: #fff;
+   background-color: var(--bg-color--nav-item);
 }
 
 nav ul > li > ul {
