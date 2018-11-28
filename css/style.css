@@ -66,6 +66,10 @@ a {
 
 @media (max-width: 1080px) {
    #container {
+      /*
+       * Divide previous #container width (1000px on line 59) by current breakpoint
+       * (1080px on line 67). Thus, 1000 / 1080 = .9259, or 92.59%
+       */
       width: 92.59%;
    }
 
