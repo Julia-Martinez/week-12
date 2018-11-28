@@ -45,14 +45,8 @@ nav ul > li {
 nav ul > li > ul {
    visibility: hidden;
    position: absolute;
-   left: 0;
 }
 
 nav ul > li:hover > ul {
    visibility: visible;
-}
-
-nav ul > li > ul a {
-   line-height: 48px;
-   height: 48px;
 }
