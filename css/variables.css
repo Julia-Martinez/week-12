@@ -1,0 +1,7 @@
+:root {
+   --bg-color: rgba(255, 255, 255, .9);
+   --primary-typeface: 'Lato', sans-serif;
+   --primary-space: 12px;
+   --secondary-space: calc(2 * var(--primary-space));
+   --tertiary-space: calc(2 * var(--secondary-space));
+}

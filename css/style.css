@@ -1,12 +1,5 @@
 @import url('http://fonts.googleapis.com/css?family=Lato:300,300italic,700&amp;subset=latin,latin-ext');
-
-:root {
-   --bg-color: rgba(255, 255, 255, .9);
-   --primary-typeface: 'Lato', sans-serif;
-   --primary-space: 12px;
-   --secondary-space: 24px;
-   --tertiary-space: 48px;
-}
+@import url('variables.css');
 
 * {
    margin: 0;
